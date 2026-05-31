@@ -1,0 +1,54 @@
+# How Website Backend Works
+
+## Frontend
+What the user sees and interacts with.
+
+Examples:
+- Buttons
+- Forms
+- Pages
+- Images
+
+## Backend
+The "brain" behind the website.
+
+It:
+- Receives requests from users
+- Processes data and business logic
+- Communicates with the database
+- Sends results back to the frontend
+
+## Example: Login Process
+
+When a user clicks **Login**:
+
+```text
+Browser
+   ↓
+Backend
+   ↓
+Database
+   ↓
+Backend
+   ↓
+Browser
+```
+
+The backend checks:
+- Does the user exist?
+- Is the password correct?
+
+Then it returns:
+- ✅ Login successful
+- ❌ Login failed
+
+## Simple Analogy
+
+A website is like a restaurant:
+
+- **Frontend** = Waiter taking your order
+- **Backend** = Kitchen preparing the food
+- **Database** = Storage room holding ingredients
+
+The customer only sees the waiter, but the real work happens in the kitchen.
+```
