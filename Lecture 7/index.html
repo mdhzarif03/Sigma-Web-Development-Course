@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Forms</h1>
+    
+    <p>Forms are used to collect user input. They can include various types of input fields such as text boxes, checkboxes, radio buttons, and submit buttons. Forms are typically created using the element in HTML, and they can be styled using CSS and made interactive with JavaScript.</p>
+
+    <form action="/submit" method="post">
+        <div>
+            <label for="name">Enter your Name</label>
+            <input type="text" id="name" name="name">
+        </div>
+
+        <div>
+            <label>Select your favorite email frequency</label>
+            <br>
+            <input type="radio" id="daily" name="email" value="daily">
+            <label for="daily">Daily</label>
+            <input type="radio" id="weekly" name="email" value="weekly">
+            <label for="weekly">Weekly</label>
+        </div>
+        
+        <div>
+            <label for="country">Select your country:</label>
+            <select id="country" name="country">
+                <option value="usa">USA</option>
+                <option value="canada">Canada</option>
+                <option value="uk">UK</option>
+            </select>
+        </div>
+        
+        <div>
+            <label for="comments">Comments</label><br/>
+            <textarea id="comments" name="comments"></textarea>
+        </div>
+        
+        
+        <div>
+            <label for="subscribe">Subscribe to newsletter</label>
+            <input type="checkbox" id="subscribe" name="subscribe">
+        </div>
+        
+        <div>
+            <label for="file">Upload a your CV</label> <br/>
+            <input type="file" id="file" name="file">
+        </div>
+        
+        <button type="submit">Submit</button>
+
+        <p style="font-size: small;">Note: The form's action attribute specifies where to send the form data when the form is submitted, and the method attribute specifies how to send the data (e.g., GET or POST).</p>
+    </form>
+</body>
+</html>
