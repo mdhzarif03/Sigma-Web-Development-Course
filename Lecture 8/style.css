@@ -1,0 +1,17 @@
+body{
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 10;
+}
+
+p{
+    color: #333333;
+    font-size: 16px;
+    background-color: #ffbd06;
+}
+
+a{
+    color: #e61a1a;
+    text-decoration: none;
+    background-color: #06cdff;
+}

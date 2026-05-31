@@ -1,0 +1,102 @@
+Comprehensive List of Block and Inline Elements (Most commonly used)
+
+Block
+
+<div> — generic container (most used)
+<h1> — main heading
+<h2> — section heading
+<h3> — subsection heading
+<h4> — smaller heading
+<h5> — smaller heading
+<h6> — smallest heading
+<p> — paragraph
+<section> — section of content
+<article> — self-contained content (blog/news)
+<header> — page/section header
+<footer> — page/section footer
+<main> — main content area
+<nav> — navigation links
+<aside> — sidebar content
+<ul> — unordered list
+<ol> — ordered list
+<li> — list item
+<table> — table
+<thead> — table head
+<tbody> — table body
+<tfoot> — table footer
+<tr> — table row
+<td> — table cell
+<th> — table header cell
+<form> — form container
+<fieldset> — form grouping
+<legend> — form group title
+<address> — contact info
+<blockquote> — long quotation
+<pre> — preformatted text
+<hr> — horizontal rule
+<figure> — media grouping
+<figcaption> — caption for figure
+<div> — generic container (most used)
+<h1> — main heading
+<h2> — section heading
+<h3> — subsection heading
+<h4> — smaller heading
+<h5> — smaller heading
+<h6> — smallest heading
+<p> — paragraph
+<section> — section of content
+<article> — self-contained content (blog/news)
+<header> — page/section header
+<footer> — page/section footer
+<main> — main content area
+<nav> — navigation links
+<aside> — sidebar content
+<ul> — unordered list
+<ol> — ordered list
+<li> — list item
+<table> — table
+<thead> — table head
+<tbody> — table body
+<tfoot> — table footer
+<tr> — table row
+<td> — table cell
+<th> — table header cell
+<form> — form container
+<fieldset> — form grouping
+<legend> — form group title
+<address> — contact info
+<blockquote> — long quotation
+<pre> — preformatted text
+<hr> — horizontal rule
+<figure> — media grouping
+<figcaption> — caption for figure
+
+Inline
+
+<span> — generic inline container
+<a> — hyperlink
+<strong> — important/bold text
+<em> — emphasized/italic text
+<b> — bold (visual only)
+<i> — italic (visual only)
+<u> — underline
+<small> — smaller text
+<br> — line break
+<img> — image
+<input> — form input
+<label> — form label
+<button> — clickable button
+<select> — dropdown
+<option> — dropdown item
+<textarea> — multi-line input
+<code> — inline code
+<kbd> — keyboard input
+<samp> — sample output
+<var> — variable in text
+<time> — date/time
+<abbr> — abbreviation
+<cite> — citation
+<q> — short quote
+<sub> — subscript
+<sup> — superscript
+<data> — machine-readable value
