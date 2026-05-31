@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div>
+        <h1>Media Elements</h1>
+        <p>
+            In this lecture, we will learn about media elements in HTML, including the <code id="code">&lt;video&gt;</code>, <code id="code">&lt;audio&gt;</code>, and <code id="code">&lt;iframe&gt;</code> elements. These elements allow you to embed multimedia content such as videos, audio files, and other web pages into your HTML documents.
+        </p>
+    </div>
+
+    <div>
+        <h2>Video Element</h2>
+        <p>
+            The <code id="code">&lt;video&gt;</code> element allows you to embed video content in your web page. You can specify the source of the video using the <code>src</code> attribute, and you can also include controls for play, pause, and volume using the <code>controls</code> attribute. The <code>loop</code> attribute allows the video to play continuously, and the <code>poster</code> attribute specifies an image to be shown while the video is downloading or until the user hits the play button.
+        </p>
+        <video width="326" src="video.mp4" controls loop poster="poster.jpg"></video>
+        <p>
+            Video element with controls, loop, and poster image.
+        </p>
+    </div>
+
+    <div>
+        <h2>Audio Element</h2>
+        <p>
+            The <code id="code">&lt;audio&gt;</code> element allows you to embed audio content in your web page. You can specify the source of the audio using the <code>src</code> attribute, and you can also include controls for play, pause, and volume using the <code>controls</code> attribute. The <code>loop</code> attribute allows the audio to play continuously.
+        </p>
+        <audio src="audio.mp3" controls loop></audio>
+        <p>
+            Audio element with controls and loop.
+        </p>
+    </div>
+
+    <div>
+        <h2>IFrame Element</h2>
+        <p>
+            The <code id="code">&lt;iframe&gt;</code> element allows you to embed another HTML document within the current document. This is commonly used to embed content from other websites, such as videos from YouTube or maps from Google Maps. The <code>src</code> attribute specifies the URL of the page to embed, and you can also specify the width and height of the iframe.
+        </p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/xFFs9UgOAlE?si=799K0VAvuH5Zz0Q4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <p>
+            IFrame element embedding a YouTube video.
+        </p>
+    </div>
+
+</body>
+</html>
