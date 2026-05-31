@@ -1,0 +1,7 @@
+Tags are of two type
+1. self closing Tags
+2. pair Tags (have openning and closing tags)
+
+Title of a page
+ - Helps is SEO
+ - Describes page contents
