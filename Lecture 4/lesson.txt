@@ -1,0 +1,2 @@
+To give any tag enhanced funtionality or proeprty control, we use Attributes
+
