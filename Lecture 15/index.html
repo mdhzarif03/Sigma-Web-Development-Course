@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>How is CSS added to HTML</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>CSS Implementation in HTML</h1>
+    </header>
+
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#inline-css">Inline CSS</a></li>
+        <li><a href="#internal-css">Internal CSS</a></li>
+        <li><a href="#external-css">External CSS</a></li>
+        <li><a href="#when-to-use">When to Use Each Method</a></li>
+        <li><a href="#summary">Summary</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <div class="alert">
+        <p>
+          Note: This is a simplified guide to CSS implementation in HTML. For
+          more detailed information, refer to the official CSS documentation.
+        </p>
+      </div>
+      <div class="content">
+        <p>There are three ways to add CSS to HTML:</p>
+        <ol>
+          <li>Inline CSS</li>
+          <li>Internal CSS</li>
+          <li>External CSS</li>
+        </ol>
+      </div>
+      <h2 id="inline-css">1. Inline CSS</h2>
+      <p>
+        Inline CSS is added directly to an HTML element using the "style"
+        attribute tag <code>&lt;style="property: value;"&gt;</code>. For
+        example:
+      </p>
+      <code>&lt;p style="color: red;"&gt;This text is red.&lt;/p&gt;</code>
+      <p style="color: red" id="output">This text is red.</p>
+
+      <h2 id="internal-css">2. Internal CSS</h2>
+      <p>
+        Internal CSS is added within a &lt;style&gt; tag in the &lt;head&gt;
+        section of the HTML document. For example:
+      </p>
+      <pre class="code-block">
+<code>&lt;style&gt;
+.blue-text {
+  color: blue;
+}
+&lt;/style&gt;</code>
+      </pre>
+      <style>
+        .blue-text {
+          color: blue;
+        }
+      </style>
+      <p class="blue-text" id="output">This text is blue.</p>
+
+      <h2 id="external-css">3. External CSS</h2>
+      <p>
+        External CSS is added by linking to an external stylesheet using the
+        &lt;link&gt; tag in the &lt;head&gt; section of the HTML document. For
+        example:
+      </p>
+      <p>In the &lt;head&gt; section:</p>
+      <code>&lt;link rel="stylesheet" href="styles.css"&gt;</code>
+      <p>In the "styles.css" file:</p>
+      <code>.green-text { color: green; }</code>
+      <p class="green-text" id="output">This text is green.</p>
+
+      <h2 id="when-to-use">When to Use Each Method</h2>
+      <p>
+        Inline CSS is useful for quick styling or when you want to override
+        existing styles.
+      </p>
+      <p>
+        Internal CSS is good for small projects or when you want to keep all
+        styles in one file.
+      </p>
+      <p>
+        External CSS is recommended for larger projects as it allows for better
+        organization and reusability of styles.
+      </p>
+      <h2 id="summary">Summary</h2>
+      <p>
+        CSS can be added to HTML using inline styles, internal stylesheets, or
+        external stylesheets. Each method has its own use cases and advantages.
+      </p>
+      <p>
+        In practice, it's common to use a combination of these methods depending
+        on the specific needs of the project.
+      </p>
+      <p>
+        For best practices, it's generally recommended to use external CSS for
+        maintainability and separation of concerns.
+      </p>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 CSS Implementation Guide</p>
+    </footer>
+  </body>
+</html>
