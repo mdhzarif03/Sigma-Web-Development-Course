@@ -87,6 +87,14 @@ nav {
     font-weight: bold;
 }
 
+li:active{
+    background-color: #007BFF;
+}
+
+li:hover{
+    background-color: #555;
+}
+
 .alert {
     background-color: #ffdddd;
     border-left: 6px solid #f44336;
